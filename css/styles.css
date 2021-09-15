@@ -1,0 +1,61 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  padding: 10px 10px;
+  border-radius: 10%;
+  font-size: 16px;
+  color: aliceblue;
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.hex {
+  padding: 20px 20px;
+}
+
+.title {
+  margin-bottom: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
