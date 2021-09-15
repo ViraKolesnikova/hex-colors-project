@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+
 body {
   background-color: #fff;
   margin: 0;
   padding: 0;
+  font-family: 'Glory', sans-serif;
 }
 
 h1,
@@ -11,7 +14,13 @@ h2 {
   text-align: center;
 }
 
-button {
+.title {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  animation: changecolor 5s infinite alternate;
+}
+
+.hex button {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -54,8 +63,20 @@ button {
   padding: 20px 20px;
 }
 
-.title {
-  margin-bottom: 50px;
-  font-weight: bold;
-  text-transform: uppercase;
+@keyframes changecolor {
+  0% {
+    color: #ccc8c8;
+  }
+  25% {
+    color: #dbaeae;
+  }
+  50% {
+    color: #773e3e;
+  }
+  75% {
+    color: #470c0c;
+  }
+  100% {
+    color: #200707;
+  }
 }
